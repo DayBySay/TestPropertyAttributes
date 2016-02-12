@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "DelTest.h"
 
-@interface ViewController ()
+@interface ViewController () <DelDelegate>
 
 @end
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    DelTest *test = [DelTest sharedInstance];
+    NSLog(@"%@ %@ %@ %@", test.delegate1, test.delegate2, test.delegate3, test.delegate4);
+//    test.delegate1 = self;
+//    test.delegate2 = self;
+//    test.delegate3 = self;
+    test.delegate4 = self;
+    NSLog(@"%@ %@ %@ %@", test.delegate1, test.delegate2, test.delegate3, test.delegate4);
 }
 
 - (void)didReceiveMemoryWarning {

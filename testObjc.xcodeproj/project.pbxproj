@@ -13,6 +13,8 @@
 		3AAAABDB1C6DF218000DC614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAAABD91C6DF218000DC614 /* Main.storyboard */; };
 		3AAAABDD1C6DF218000DC614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAAABDC1C6DF218000DC614 /* Assets.xcassets */; };
 		3AAAABE01C6DF218000DC614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAAABDE1C6DF218000DC614 /* LaunchScreen.storyboard */; };
+		3AAAABE91C6DF4C8000DC614 /* DelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAABE81C6DF4C8000DC614 /* DelTest.m */; };
+		3AAAABEC1C6DF6BA000DC614 /* DelAccessControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAAABEB1C6DF6BA000DC614 /* DelAccessControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3AAAABDC1C6DF218000DC614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAAABDF1C6DF218000DC614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AAAABE11C6DF218000DC614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAAABE71C6DF4C8000DC614 /* DelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelTest.h; sourceTree = "<group>"; };
+		3AAAABE81C6DF4C8000DC614 /* DelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelTest.m; sourceTree = "<group>"; };
+		3AAAABEA1C6DF6BA000DC614 /* DelAccessControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelAccessControllerViewController.h; sourceTree = "<group>"; };
+		3AAAABEB1C6DF6BA000DC614 /* DelAccessControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelAccessControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				3AAAABD41C6DF218000DC614 /* AppDelegate.m */,
 				3AAAABD61C6DF218000DC614 /* ViewController.h */,
 				3AAAABD71C6DF218000DC614 /* ViewController.m */,
+				3AAAABEA1C6DF6BA000DC614 /* DelAccessControllerViewController.h */,
+				3AAAABEB1C6DF6BA000DC614 /* DelAccessControllerViewController.m */,
+				3AAAABE71C6DF4C8000DC614 /* DelTest.h */,
+				3AAAABE81C6DF4C8000DC614 /* DelTest.m */,
 				3AAAABD91C6DF218000DC614 /* Main.storyboard */,
 				3AAAABDC1C6DF218000DC614 /* Assets.xcassets */,
 				3AAAABDE1C6DF218000DC614 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAAABD81C6DF218000DC614 /* ViewController.m in Sources */,
+				3AAAABE91C6DF4C8000DC614 /* DelTest.m in Sources */,
+				3AAAABEC1C6DF6BA000DC614 /* DelAccessControllerViewController.m in Sources */,
 				3AAAABD51C6DF218000DC614 /* AppDelegate.m in Sources */,
 				3AAAABD21C6DF218000DC614 /* main.m in Sources */,
 			);
